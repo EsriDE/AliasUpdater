@@ -9,6 +9,8 @@ def authenticate(url: str, username: str, password: str) -> GIS:
     :param url: Optional string. If URL is None, then the URL will be ArcGIS Online.
     :param username: The name of the user.
     :param password: The password of the user.
+
+    :return: The authenticated GIS instance.
     """
     # Login to your arcgis account
     return GIS(url, username, password)

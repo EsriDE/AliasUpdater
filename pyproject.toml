@@ -20,7 +20,10 @@ classifiers = [
     'License :: OSI Approved :: Apache Software License',
     'Operating System :: OS Independent',
 ]
-dependencies = ['arcgis>=2.4']
+dependencies = [
+    'arcgis>=2.4',
+    'openpyxl>=3.1'
+]
 
 [project.urls]
 'Homepage' = 'https://www.esri.de'
